@@ -6,8 +6,10 @@ import {
   FaInstagram,
 } from "react-icons/fa";
 
-import { SiCodechef,SiLeetcode,
-  SiCodeforces, } from "react-icons/si";  // Import from the correct module
+import {
+  SiCodechef, SiLeetcode,
+  SiCodeforces,
+} from "react-icons/si";  // Import from the correct module
 
 // ... your other imports
 
@@ -53,35 +55,36 @@ export const HERO = {
 export const PROJECTS = [
   {
     id: 1,
-    name: "Black Friday Sales Dashboard",
+    name: "Breast Cancer Detection",
     description:
-      "An interactive sales dashboard analyzing Black Friday sales trends, built with React and Chart.js for data visualization. Features include filtering, sorting, and real-time updates.",
+      "A machine learning application designed to detect breast cancer using classification algorithms. Built with Python and Scikit-learn, it provides insightful visualizations and accurate predictions.",
     image: projectImage1,
-    githubLink: "https://github.com/user/black-friday-sales-dashboard",
+    githubLink: "https://github.com/shreeyanshi123/Breast-Cancer",
   },
+
   {
     id: 2,
     name: "California Housing Analysis",
     description:
       "A data-driven project analyzing California housing prices using Python, Pandas, and Matplotlib. Includes insights on price trends, neighborhood statistics, and predictive modeling.",
     image: projectImage2,
-    githubLink: "https://github.com/user/california-housing-analysis",
+    githubLink: "https://github.com/shreeyanshi123/CaliforniaHousing",
   },
   {
     id: 3,
     name: "Recipe Book",
     description:
-      "A digital recipe book application allowing users to browse, save, and share recipes. Built with React and Firebase, it includes user authentication and a search feature for filtering recipes by ingredients.",
+      "A digital recipe book application allowing users to browse, save, and share recipes.",
     image: projectImage3,
-    githubLink: "https://github.com/user/recipe-book",
+    githubLink: "https://github.com/shreeyanshi123/Recipe-Book",
   },
   {
     id: 4,
     name: "Restaurant Application",
     description:
-      "A restaurant management application featuring menu display, online reservations, and customer feedback. Developed using Next.js and Tailwind CSS with Firebase integration.",
+      "A restaurant management application featuring menu display, online reservations, and customer feedback. Developed using Next.js and Tailwind CSS.",
     image: projectImage4,
-    githubLink: "https://github.com/user/restaurant-application",
+    githubLink: "ongoing",
   },
   {
     id: 5,
@@ -89,16 +92,17 @@ export const PROJECTS = [
     description:
       "A personal portfolio website built with React and Tailwind CSS to showcase my skills, projects, and contact information.",
     image: projectImage5,
-    githubLink: "https://github.com/user/personal-portfolio",
+    githubLink: "https://github.com/shreeyanshi123/Portfolio",
   },
   {
     id: 6,
-    name: "Cat-Dog Classifier",
+    name: "Password Generator",
     description:
-      "A machine learning project for classifying images of cats and dogs using TensorFlow and Keras. The model achieves high accuracy and includes a web interface for uploading and classifying images.",
+      "A user-friendly tool built with JavaScript for generating secure and customizable passwords. Features include options for length, character types, and a copy-to-clipboard function.",
     image: projectImage6,
-    githubLink: "https://github.com/user/cat-dog-classifier",
-  },
+    githubLink: "https://github.com/shreeyanshi123/Password-Generator",
+},
+
 ];
 
 export const BIO = [
@@ -236,15 +240,15 @@ export const SOCIAL_MEDIA_LINKS = [
     icon: <FaLinkedin fontSize={25} className="hover:opacity-80" />,
   },
   {
-    href: "https://leetcode.com/u/_shreeyanshi__/", 
+    href: "https://leetcode.com/u/_shreeyanshi__/",
     icon: <SiLeetcode fontSize={25} className="hover:opacity-80" />,
   },
   {
-    href: "https://codeforces.com/profile/03shree", 
+    href: "https://codeforces.com/profile/03shree",
     icon: <SiCodeforces fontSize={25} className="hover:opacity-80" />,
   },
   {
-    href: "https://www.codechef.com/users/shreeyanshi03", 
+    href: "https://www.codechef.com/users/shreeyanshi03",
     icon: <SiCodechef fontSize={25} className="hover:opacity-80" />,
   },
 ];
